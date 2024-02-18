@@ -1,3 +1,4 @@
 let header_id = document.getElementById("header_id");
-console.log("JS");
-header_id.style.backgroundColor = "red";
+let button = document.getElementById("button");
+
+button.onclick = function(){header_id.style.backgroundColor = "red"};

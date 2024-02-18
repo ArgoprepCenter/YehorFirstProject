@@ -1,5 +1,22 @@
-#header_id {
-    width: 200px;
+#header_id, #dish_description_id, #cooking_time_id, #ingredients_count_id, #cooking_types_id, #reviews_id {
     height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header_id {
+    /* position: absolute; */
+    /* width: 100px; */
+    height: 20px;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    /* left: 50%;
+    transform: translate(-50% 0); */    
     background-color: blue;
+}
+
+.main {
+    /* display: flex;
+    align-items: center; */
 }
