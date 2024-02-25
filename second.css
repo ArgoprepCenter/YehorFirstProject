@@ -1,4 +1,4 @@
-#header_id, #dish_description_id, #cooking_time_id, #ingredients_count_id, #cooking_types_id, #reviews_id {
+#header_id, #dish_name_id, #dish_description_id, #cooking_time_id, #ingredients_count_id, #cooking_types_id, #reviews_id {
     height: 20px;
     display: flex;
     align-items: center;
