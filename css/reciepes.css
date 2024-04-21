@@ -36,8 +36,36 @@
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
-    url(../assets/tiramisu.jpg);
+    url(../assets/rob-wicks-_slDBXdJCdE-unsplash.jpg);
     height: 150px;
+}
+#card_two {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
+    url(../assets/anthony-espinosa-InCMGusiAvA-unsplash\ \(1\).jpg);
+    height: 150px;
+}
+#card_three {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
+    url(../assets/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg);
+    height: 150px;
+}
+
+.food-card-body{
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: 
+  linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
+  url(../assets/rob-wicks-_slDBXdJCdE-unsplash.jpg);
+}
+.food-card-body .card-text{
+    align-self: flex-end;
 }
 
 #test::before {
