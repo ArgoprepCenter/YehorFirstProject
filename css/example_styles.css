@@ -31,6 +31,10 @@
     /* float: left; */
 }
 
+.gradient-overlay .food-card-body {    
+    display: flex;
+}
+
 .food-card-body { 
     display: flex;
     background-size: cover;
@@ -42,6 +46,10 @@
 }
 
 .food-card-body .card-text {
+    align-self: flex-end;
+}
+
+.gradient-overlay .card-text {
     align-self: flex-end;
 }
 
