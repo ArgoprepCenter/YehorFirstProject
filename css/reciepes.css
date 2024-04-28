@@ -11,6 +11,7 @@
 }
 
 .gradient-overlay {
+    display: flex;
     /* content: " ";
     position: relative;
     left: 0;
@@ -29,6 +30,10 @@
     height: 650px;
     /* border: 3px solid black; */
     /* float: left; */
+}
+.gradient-overlay .card-text{
+align-self: flex-end;
+
 }
 
 #card_one {
@@ -55,6 +60,7 @@
     url(../assets/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg);
     height: 150px;
 }
+
 
 .food-card-body{
   display: flex;
