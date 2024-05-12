@@ -1,0 +1,13 @@
+.card {
+    border: none;
+}
+
+.card .h1 {
+    font-family: "Freeman", Tahoma, Verdana, sans-serif;
+    font-weight: 600;
+    line-height: 1.32;
+}
+
+.contacts-cards {
+    background-color: #f5efeb;
+}
