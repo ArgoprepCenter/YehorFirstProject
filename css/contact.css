@@ -1,0 +1,13 @@
+.card {
+    border: none;
+}
+
+.card .h1{
+font-family: tiempos, Georgia, Cambria, Palatino, "Times New Roman", Times, serif;
+font-weight: 600;
+    line-height: 1.32;
+}
+
+.contacts-card{
+    background-color: #f5efeb;
+}
