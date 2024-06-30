@@ -49,7 +49,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
-    url(../assets/pizza-3007395_1920.jpg);
+    url(../assets/pizza_2.jpg);
     height: 150px;
 }
 #card_three {
@@ -65,7 +65,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
-    url(../assets/tiramisu\ \(2\).jpg);
+    url(../assets/tiramisu.jpg);
     height: 150px;
 }
 #card_five {

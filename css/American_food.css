@@ -1,0 +1,284 @@
+#test {
+    /* width: 50%; */
+    /* max-height: 450px; */
+    /* border: 3px solid black; */
+    overflow: hidden;
+    /* z-index: 10; */
+    /* height: 400px; */
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%); */
+    /* background-image: url(rabstol_net_cakes_12.jpg); */
+    /* float: left; */
+}
+
+.gradient-overlay {
+    display: flex;
+    /* content: " ";
+    position: relative;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    z-index: 10; */
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%);
+    background-image: url(rabstol_net_cakes_12.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
+    url(../assets/tiramisu.jpg);
+    /* width: 100%; */
+    height: 650px;
+    /* border: 3px solid black; */
+    /* float: left; */
+}
+.gradient-overlay .card-text{
+align-self: flex-end;
+
+}
+
+#card_one {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
+    url(../assets/burger.jpg);
+    height: 150px;
+}
+#card_two {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
+    url(../assets/hotdog.jpg);
+    height: 150px;
+}
+#card_three {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
+    url(../assets/pie.jpg);
+    height: 150px;
+}
+#card_four {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
+    url(../assets/am_seafood.jpg);
+    height: 150px;
+}
+#card_five {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
+    url(../assets/sandwich.jpg);
+    height: 150px;
+}
+#card_six {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
+    url(../assets/am_drink.jpg);
+    height: 150px;
+}
+#card_seven {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
+    url(../assets/am_salad.jpg);
+    height: 150px;
+}
+#card_eight {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
+    url(../assets/bbqchicken.jpg);
+    height: 150px;
+}
+
+
+
+.food-card-body{
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: 
+  linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
+  url(../assets/rob-wicks-_slDBXdJCdE-unsplash.jpg);
+}
+.food-card-body .card-text{
+    align-self: flex-end;
+}
+
+#test::before {
+    /* content: '';
+    z-index: 10; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* top:0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    /* position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%); */
+}
+
+#test img {
+    /* color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px; */
+    /* border: 10px solid black; */
+    /* background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888; */
+    /* display: block; */
+    /* object-fit: fill; */
+    /* width: 100% */
+    /* background-size: auto; */
+    max-width: 100%;
+    /* z-index: 0; */
+}
+
+.image {
+    /* background-image: url(rabstol_net_cakes_12.jpg);
+    border: 3px solid black; */
+    /* background: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%); */
+}
+
+@media screen and (max-width: 1200px) {
+    #test {
+        height: 500px;
+    }
+    .gradient-overlay {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    #test {
+        height: 400px;
+    }
+    .gradient-overlay {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #test {
+        height: 400px;
+    }
+    .gradient-overlay {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    #test {
+        height: 400px;
+    }
+    .gradient-overlay {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #test {
+        height: 400px;
+    }
+    .gradient-overlay {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 950px) {
+    #test {
+        height: 400px;
+    }
+    .gradient-overlay {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 900px) {
+    #test {
+        height: 400px;
+    }
+    .gradient-overlay {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 850px) {
+    #test {
+        height: 400px;
+    }
+    .gradient-overlay {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #test {
+        height: 300px;
+    }
+    .gradient-overlay {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #test {
+        height: 250px;
+    }
+    .gradient-overlay {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 450px) {
+    #test {
+        height: 225px;
+    }
+    .gradient-overlay {
+        height: 225px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #test {
+        height: 200px;
+    }
+    .gradient-overlay {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 370px) {
+    #test {
+        height: 175px;
+    }
+    .gradient-overlay {
+        height: 175px;
+    }
+}
+@media screen and (max-width: 350px) {
+    #test {
+        height: 150px;
+    }
+    .gradient-overlay {
+        height: 150px;
+    }
+}
+@media screen and (max-width: 325px) {
+    #test {
+        height: 125px;
+    }
+    .gradient-overlay {
+        height: 125px;
+    }
+}
+@media screen and (max-width: 300px) {
+    #test {
+        height: 110px;
+    }
+    .gradient-overlay {
+        height: 110px;
+    }
+}
