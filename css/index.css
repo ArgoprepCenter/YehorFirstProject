@@ -1,0 +1,43 @@
+#header_id,#dish_name, #dish_description_id, #cooking_time_id, #Ingradients_coint_id, #Cooking_types_id, #Reviews_id{
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: center; 
+}
+
+#header_id{
+    /* position: absolute; */
+/* width: 100px; */
+height: 20px;
+/* margin-left: 50%;
+margin-right: 50%; */
+/* left: 50%;
+transform: translate(-50% 0); */
+background-color:rgb(91, 226, 229); 
+}
+
+.main {
+   /* display:flex;
+   align-items: center; */
+}
+#text {
+    display: flex;
+    /* content: " ";
+    position: relative;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    z-index: 10; */
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%);
+    background-image: url(rabstol_net_cakes_12.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image :
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
+    url(../assets/purple-background-plant-pot-succulent-1936911-wallhere.com.jpg);
+    /* width: 100%; */
+    height: 650px;
+    /* border: 3px solid black; */
+    /* float: left; */
+}
