@@ -41,3 +41,10 @@ background-color:rgb(91, 226, 229);
     /* border: 3px solid black; */
     /* float: left; */
 }
+.food-card-body{
+    display: flex;
+
+  }
+  .food-card-body .card-text{
+      align-self: flex-end;
+  }
