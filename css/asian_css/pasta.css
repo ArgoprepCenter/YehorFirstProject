@@ -41,7 +41,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
-    url(../../assets/asian_pasta.jpg);
+    url(../../assets/Garlic\ Noodle.jpg);
     height: 150px;
 }
 #card_two {
@@ -49,7 +49,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 50%),
-    url(../../assets/sushi_asian.jpg);
+    url(../../assets/Soy_Sauce_Pan-fried_Noodles.jpg);
     height: 150px;
 }
 #card_three {
@@ -57,7 +57,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
-    url(../../assets/asian_soup.jpg);
+    url(../../assets/Char_Kway_Teow.jpg);
     height: 150px;
 }
 #card_four {
@@ -65,7 +65,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
-    url(../../assets/asian_desert.jpg);
+    url(../../assets/Hokkien_Mee.jpg);
     height: 150px;
 }
 #card_five {
@@ -73,7 +73,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
-    url(../../assets/asian_seafood.jpg);
+    url(../../assets/Mee_Goreng.jpg);
     height: 150px;
 }
 #card_six {
@@ -81,7 +81,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
-    url(../../assets/asian_drinks.jpg);
+    url(../../assets/Pad_Woon_Sen.jpg);
     height: 150px;
 }
 #card_seven {
@@ -89,7 +89,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
-    url(../../assets/asian_salad.jpg);
+    url(../../assets/Chicken_Chow_Mein.jpg);
     height: 150px;
 }
 #card_eight {
@@ -97,15 +97,7 @@ align-self: flex-end;
     background-repeat: no-repeat;
     background-image :
     linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
-    url(../../assets/asian_meat.jpg);
-    height: 150px;
-}
-#card_nine {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image :
-    linear-gradient(0deg, rgba(0, 0, 0, 0.9) 7%, rgba(0, 0, 0, 0) 30%),
-    url(../../assets//asian_Poultry_food.jpg);
+    url(../../assets/Dan_Dan_Noodles.avif);
     height: 150px;
 }
 
