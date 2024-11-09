@@ -32,4 +32,5 @@ asianPastaRecipeElement.innerHTML = "Prep - 10 minutes mins<br />"+
                                     "5. 2 tsp soy sauce<br />"+ 
                                     "6. 2 Tbsp brown sugar<br />"+
                                     "7. 1 tsp sesame oil<br />"+
+                                    "7. 1 tsp sesame oil<br />"+
                                     "8. 2 Tbsp oyster sauce<br />";
