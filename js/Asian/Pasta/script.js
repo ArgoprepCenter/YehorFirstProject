@@ -1,4 +1,4 @@
-let details = "";
+let details = ""; 
 let recipeDetails = document.getElementById("recipe-details");
 let buttonGarlic = document.getElementById("garlic-noodle");
 let buttonSoy = document.getElementById("soy-sauce-pan-fried-noodles");
@@ -12,42 +12,42 @@ let buttonDan = document.getElementById("Dan-Dan-Noodles");
 buttonGarlic.onclick = function(){
     modal.style.display = "block";
     details = recipes.asian_pasta;
-    asianPastaRecipeElement.innerHTML = details;
+    recipeDetails.innerHTML = details;
 }
 buttonSoy.onclick = function(){
   modal.style.display = "block";
-  details = recipes.garlic_pasta;
-  asianPastaRecipeElement.innerHTML = details;
+  details = recipes.soy_pasta;
+  recipeDetails.innerHTML = details;
 }
 buttonChar.onclick = function(){
   modal.style.display = "block";
-  details = recipes.soy_pasta;
-  asianPastaRecipeElement.innerHTML = details;
+  details = recipes.q_pasta;
+  recipeDetails.innerHTML = details;
 }
 buttonHokkien.onclick = function(){
   modal.style.display = "block";
-  details = recipes.char_pasta;
-  asianPastaRecipeElement.innerHTML = details;
+  details = recipes.Char_pasta;
+  recipeDetails.innerHTML = details;
 }
 buttonMee.onclick = function(){
   modal.style.display = "block";
   details = recipes.asian_pasta;
-  asianPastaRecipeElement.innerHTML = details;
+  recipeDetails.innerHTML = details;
 }
 buttonPad.onclick = function(){
   modal.style.display = "block";
   details = recipes.asian_pasta;
-  asianPastaRecipeElement.innerHTML = details;
+  recipeDetails.innerHTML = details;
 }
 buttonChicken.onclick = function(){
   modal.style.display = "block";
   details = recipes.asian_pasta;
-  asianPastaRecipeElement.innerHTML = details;
+  recipeDetails.innerHTML = details;
 }
 buttonDan.onclick = function(){
   modal.style.display = "block";
   details = recipes.asian_pasta;
-  asianPastaRecipeElement.innerHTML = details;
+  recipeDetails.innerHTML = details;
 }
 // Get the modal
 var modal = document.getElementById("myModal");
