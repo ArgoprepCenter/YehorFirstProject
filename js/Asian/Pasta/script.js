@@ -1,6 +1,53 @@
-let button = document.getElementById("garlic-noodle");
-button.onclick = function(){
+let details = "";
+let recipeDetails = document.getElementById("recipe-details");
+let buttonGarlic = document.getElementById("garlic-noodle");
+let buttonSoy = document.getElementById("soy-sauce-pan-fried-noodles");
+let buttonChar = document.getElementById("Char-Kway-Teow");
+let buttonHokkien = document.getElementById("Hokkien-Mee");
+let buttonMee = document.getElementById("Mee-Goreng");
+let buttonPad = document.getElementById("Pad-Woon-Sen");
+let buttonChicken = document.getElementById("Chicken-Chow-Mein");
+let buttonDan = document.getElementById("Dan-Dan-Noodles");
+
+buttonGarlic.onclick = function(){
     modal.style.display = "block";
+    details = recieps.asian_pasta;
+    asianPastaRecipeElement.innerHTML = details;
+}
+buttonSoy.onclick = function(){
+  modal.style.display = "block";
+  details = recieps.garlic_pasta;
+  asianPastaRecipeElement.innerHTML = details;
+}
+buttonGarlic.onclick = function(){
+  modal.style.display = "block";
+  details = recieps.soy_pasta;
+  asianPastaRecipeElement.innerHTML = details;
+}
+buttonGarlic.onclick = function(){
+  modal.style.display = "block";
+  details = recieps.char_pasta;
+  asianPastaRecipeElement.innerHTML = details;
+}
+buttonGarlic.onclick = function(){
+  modal.style.display = "block";
+  details = recieps.asian_pasta;
+  asianPastaRecipeElement.innerHTML = details;
+}
+buttonGarlic.onclick = function(){
+  modal.style.display = "block";
+  details = recieps.asian_pasta;
+  asianPastaRecipeElement.innerHTML = details;
+}
+buttonGarlic.onclick = function(){
+  modal.style.display = "block";
+  details = recieps.asian_pasta;
+  asianPastaRecipeElement.innerHTML = details;
+}
+buttonGarlic.onclick = function(){
+  modal.style.display = "block";
+  details = recieps.asian_pasta;
+  asianPastaRecipeElement.innerHTML = details;
 }
 // Get the modal
 var modal = document.getElementById("myModal");
@@ -19,6 +66,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-let asianPastaRecipeElement = document.getElementById("asian-pasta-recipe");
-
-asianPastaRecipeElement.innerHTML = recieps.asian_pasta
