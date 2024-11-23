@@ -19,32 +19,32 @@ buttonSoy.onclick = function(){
   details = recipes.garlic_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
-buttonGarlic.onclick = function(){
+buttonChar.onclick = function(){
   modal.style.display = "block";
   details = recipes.soy_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
-buttonGarlic.onclick = function(){
+buttonHokkien.onclick = function(){
   modal.style.display = "block";
   details = recipes.char_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
-buttonGarlic.onclick = function(){
+buttonMee.onclick = function(){
   modal.style.display = "block";
   details = recipes.asian_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
-buttonGarlic.onclick = function(){
+buttonPad.onclick = function(){
   modal.style.display = "block";
   details = recipes.asian_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
-buttonGarlic.onclick = function(){
+buttonChicken.onclick = function(){
   modal.style.display = "block";
   details = recipes.asian_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
-buttonGarlic.onclick = function(){
+buttonDan.onclick = function(){
   modal.style.display = "block";
   details = recipes.asian_pasta;
   asianPastaRecipeElement.innerHTML = details;
