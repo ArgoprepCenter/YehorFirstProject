@@ -11,42 +11,42 @@ let buttonDan = document.getElementById("Dan-Dan-Noodles");
 
 buttonGarlic.onclick = function(){
     modal.style.display = "block";
-    details = recieps.asian_pasta;
+    details = recipes.asian_pasta;
     asianPastaRecipeElement.innerHTML = details;
 }
 buttonSoy.onclick = function(){
   modal.style.display = "block";
-  details = recieps.garlic_pasta;
+  details = recipes.garlic_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
 buttonGarlic.onclick = function(){
   modal.style.display = "block";
-  details = recieps.soy_pasta;
+  details = recipes.soy_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
 buttonGarlic.onclick = function(){
   modal.style.display = "block";
-  details = recieps.char_pasta;
+  details = recipes.char_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
 buttonGarlic.onclick = function(){
   modal.style.display = "block";
-  details = recieps.asian_pasta;
+  details = recipes.asian_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
 buttonGarlic.onclick = function(){
   modal.style.display = "block";
-  details = recieps.asian_pasta;
+  details = recipes.asian_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
 buttonGarlic.onclick = function(){
   modal.style.display = "block";
-  details = recieps.asian_pasta;
+  details = recipes.asian_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
 buttonGarlic.onclick = function(){
   modal.style.display = "block";
-  details = recieps.asian_pasta;
+  details = recipes.asian_pasta;
   asianPastaRecipeElement.innerHTML = details;
 }
 // Get the modal
