@@ -1,13 +1,13 @@
 let details = ""; 
 let recipeDetails = document.getElementById("recipe-details");
-let buttonGarlic = document.getElementById("garlic_noodle");
-let buttonSoy = document.getElementById("soy_pasta");
-let buttonChar = document.getElementById("char_pasta");
-let buttonHokkien = document.getElementById("hokkien_mee");
-let buttonMee = document.getElementById(" mee_goreng");
-let buttonPad = document.getElementById("pad_woon_sen");
-let buttonChicken = document.getElementById("Chicken-Chow-Mein");
-let buttonDan = document.getElementById("Dan-Dan-Noodles");
+let buttonGarlic = document.getElementById("garlic-noodle");
+let buttonSoy = document.getElementById("soy-pasta");
+let buttonChar = document.getElementById("char-pasta");
+let buttonHokkien = document.getElementById("hokkien-mee");
+let buttonMee = document.getElementById("mee-goreng");
+let buttonPad = document.getElementById("pad-woon-sen");
+let buttonChicken = document.getElementById("chicken-chow-mein");
+let buttonDan = document.getElementById("dan-dan-noodles");
 
 buttonGarlic.onclick = function(){
     modal.style.display = "block";
