@@ -1,17 +1,17 @@
 let details = ""; 
 let recipeDetails = document.getElementById("recipe-details");
-let buttonGarlic = document.getElementById("garlic-noodle");
-let buttonSoy = document.getElementById("soy-sauce-pan-fried-noodles");
-let buttonChar = document.getElementById("Char-Kway-Teow");
-let buttonHokkien = document.getElementById("Hokkien-Mee");
-let buttonMee = document.getElementById("Mee-Goreng");
-let buttonPad = document.getElementById("Pad-Woon-Sen");
+let buttonGarlic = document.getElementById("garlic_noodle");
+let buttonSoy = document.getElementById("soy_pasta");
+let buttonChar = document.getElementById("char_pasta");
+let buttonHokkien = document.getElementById("hokkien_mee");
+let buttonMee = document.getElementById(" mee_goreng");
+let buttonPad = document.getElementById("pad_woon_sen");
 let buttonChicken = document.getElementById("Chicken-Chow-Mein");
 let buttonDan = document.getElementById("Dan-Dan-Noodles");
 
 buttonGarlic.onclick = function(){
     modal.style.display = "block";
-    details = recipes.asian_pasta;
+    details = recipes.garlic_noodle;
     recipeDetails.innerHTML = details;
 }
 buttonSoy.onclick = function(){
@@ -31,12 +31,12 @@ buttonMee.onclick = function(){
 }
 buttonPad.onclick = function(){
   modal.style.display = "block";
-  details = recipes.asian_pasta;
+  details = recipes.mee_goreng;
   recipeDetails.innerHTML = details;
 }
 buttonChicken.onclick = function(){
   modal.style.display = "block";
-  details = recipes.asian_pasta;
+  details = recipes.pad_woon_sen;
   recipeDetails.innerHTML = details;
 }
 buttonDan.onclick = function(){
