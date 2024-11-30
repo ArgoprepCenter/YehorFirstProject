@@ -1,14 +1,14 @@
-let asianPastaRecipeElement = document.getElementById("asian-pasta-recipe");
+let button = document.getElementsByClassName("btn");
+console.log(button);
 
-asianPastaRecipeElement.innerHTML = "Prep - 10 minutes mins</b>" +
-                                    "Cook - 15 minutes mins</b>";
-                                    // Total - 25 minutes mins
-                                    // Ingredients
-                                    // 1. 8 oz angel hair pasta 
-                                    // 2. 4 cloves garlic 
-                                    // 3. 1/2 bunch green onions 
-                                    // 4. 4 Tbsp butter 
-                                    // 5. 2 tsp soy sauce 
-                                    // 6. 2 Tbsp brown sugar 
-                                    // 7. 1 tsp sesame oil 
-                                    // 8. 2 Tbsp oyster sauce ";
+for (let item of button) {
+    console.log(item.id);
+    item.onclick = function() {
+        // modal.style.display = "block";
+        // details = recipes.asian_pasta;
+        // recipeDetails.innerHTML = details;
+        recipe_id = item.id;
+        recipe_name = recipe_id.replace("-", "_");
+        console.log(recipes[recipe_name]);
+    }
+}
