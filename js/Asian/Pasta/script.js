@@ -19,19 +19,14 @@ buttonSoy.onclick = function(){
   details = recipes.soy_pasta;
   recipeDetails.innerHTML = details;
 }
-buttonChar.onclick = function(){
-  modal.style.display = "block";
-  details = recipes.q_pasta;
-  recipeDetails.innerHTML = details;
-}
 buttonHokkien.onclick = function(){
   modal.style.display = "block";
-  details = recipes.Char_pasta;
+  details = recipes.char_pasta;
   recipeDetails.innerHTML = details;
 }
 buttonMee.onclick = function(){
   modal.style.display = "block";
-  details = recipes.asian_pasta;
+  details = recipes.hokkien_mee;
   recipeDetails.innerHTML = details;
 }
 buttonPad.onclick = function(){
