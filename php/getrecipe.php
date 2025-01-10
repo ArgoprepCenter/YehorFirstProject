@@ -7,7 +7,6 @@
       echo $row["id"] . "<br>";
       echo $row["name"] . "<br>";
       echo $row["ingredients"] . "<br>";
-      echo $row["instructions"] . "<br>";    
     };
   } 
   else {
