@@ -1,6 +1,6 @@
 <?php
   include ("dbconnect.php");
-  $sql = "SELECT * FROM recipes";
+  $sql = "SELECT * FROM recipes Where id = 2 ";
   $results = mysqli_query($conn, $sql);
   if (mysqli_num_rows($results) > 0) {
     while($row = mysqli_fetch_assoc($results)) {
