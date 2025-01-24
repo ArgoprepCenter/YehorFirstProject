@@ -13,3 +13,4 @@
     echo "0 results";
   }
   mysqli_close($conn);
+  http://localhost/YehorFirstProject/php/getrecipe.php
