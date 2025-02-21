@@ -1,6 +1,7 @@
 <?php
   include ("dbconnect.php");
-  $sql = "SELECT * FROM recipes Where name Like '%Pasta%'";
+  $recipe_name = $_GET['recipe_name'];
+  $sql = "SELECT * FROM recipes Where name Like '$recipe_name'";
   $result = mysqli_query($conn, $sql);
   if (mysqli_num_rows($result) > 0) {
     $resultArray = array();

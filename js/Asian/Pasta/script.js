@@ -20,11 +20,11 @@ for (let item of button) {
         
         modal.style.display = "block";
         // details = recipes[recipe_name];        
-        details = getRecipe(recipe_id);
+        details = getRecipe(recipe_name);
         // for (const [key, value] of Object.entries(details[0])) {
         //   console.log(`${key}: ${value}`);
         // }
-        console.log(details[0]);
+        console.log(details);
         recipeDetails.innerHTML = details;
     }
 }
@@ -82,8 +82,8 @@ window.onclick = function(event) {
   }
 }
 
-async function getRecipe(recipe_id) {
-  const response = await fetch("http://localhost/YehorFirstProject/php/getrecipe.php");
+async function getRecipe(recipe_name) {
+  const response = await fetch("http://localhost/YehorFirstProject/php/getrecipe.php?recipe_name=" + recipe_name);
   const result = await response.json();
   console.log("response: " + result);
   return result;
