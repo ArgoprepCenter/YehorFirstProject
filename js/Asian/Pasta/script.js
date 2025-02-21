@@ -19,7 +19,12 @@ for (let item of button) {
         // console.log(recipes[recipe_name]);
         
         modal.style.display = "block";
-        details = recipes[recipe_name];
+        // details = recipes[recipe_name];        
+        details = getRecipe(recipe_id);
+        // for (const [key, value] of Object.entries(details[0])) {
+        //   console.log(`${key}: ${value}`);
+        // }
+        console.log(details[0]);
         recipeDetails.innerHTML = details;
     }
 }
@@ -75,4 +80,11 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+async function getRecipe(recipe_id) {
+  const response = await fetch("http://localhost/YehorFirstProject/php/getrecipe.php");
+  const result = await response.json();
+  console.log("response: " + result);
+  return result;
 }
