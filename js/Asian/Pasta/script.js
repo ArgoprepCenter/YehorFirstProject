@@ -24,8 +24,8 @@ for (let item of button) {
         // for (const [key, value] of Object.entries(details[0])) {
         //   console.log(`${key}: ${value}`);
         // }
-        console.log(details);
-        recipeDetails.innerHTML = details;
+        // console.log(details);
+        // recipeDetails.innerHTML = details;
     }
 }
 
@@ -86,5 +86,6 @@ async function getRecipe(recipe_name) {
   const response = await fetch("http://localhost/YehorFirstProject/php/getrecipe.php?recipe_name=" + recipe_name);
   const result = await response.json();
   console.log("response: " + result);
-  return result;
+  recipeDetails.innerHTML = result[0].ingredients;
+  // return result;
 }
