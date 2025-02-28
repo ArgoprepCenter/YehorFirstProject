@@ -25,7 +25,7 @@ for (let item of button) {
         //   console.log(`${key}: ${value}`);
         // }
         // console.log(details);
-        // recipeDetails.innerHTML = details;
+        recipeDetails.innerHTML = "";
     }
 }
 
@@ -85,7 +85,7 @@ window.onclick = function(event) {
 async function getRecipe(recipe_name) {
   const response = await fetch("http://localhost/YehorFirstProject/php/getrecipe.php?recipe_name=" + recipe_name);
   const result = await response.json();
-  console.log("response: " + result);
+  console.log("response: " + result[0]);
   recipeDetails.innerHTML = result[0].ingredients;
   // return result;
 }
